@@ -147,7 +147,7 @@
     "37": {
         "inputs": {
             "seed": 9330636737804,
-            "steps": 1,
+            "steps": 15,
             "cfg": 8.5,
             "sampler_name": "ddpm",
             "scheduler": "normal",
@@ -753,7 +753,7 @@
     },
     "140": {
         "inputs": {
-            "image": "subject_image.png",
+            "image": "subject_image.jpg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -842,7 +842,7 @@
     },
     "149": {
         "inputs": {
-            "image": "background_image.png",
+            "image": "background_image.jpg",
             "upload": "image"
         },
         "class_type": "LoadImage",
@@ -982,7 +982,7 @@
     },
     "182": {
         "inputs": {
-            "strength": 0.6,
+            "strength": 0.4,
             "start_percent": 0,
             "end_percent": 1,
             "positive": [
